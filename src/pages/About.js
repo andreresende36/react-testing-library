@@ -7,11 +7,11 @@ class About extends React.Component {
       <section>
         <h2>{ `About Pokédex` }</h2>
         <section>
-          <p>
+          <p data-testid='info-pokedex'>
             This application simulates a Pokédex, a
             digital encyclopedia containing all Pokémon
           </p>
-          <p>
+          <p data-testid='info-pokedex'>
             One can filter Pokémon by type, and see more details for each one of them
           </p>
           <img
